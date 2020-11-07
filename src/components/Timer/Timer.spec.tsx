@@ -6,4 +6,7 @@ describe('App components render', () => {
     it('should render a timer', () => {
             expect(container.find("div").length).toBeGreaterThanOrEqual(1)
     });
+    it("should render instances of the TimerButton component", () => {
+        expect(container.find("TimerButton").length).toEqual(3)
+      })
 });

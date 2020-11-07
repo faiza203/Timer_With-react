@@ -1,22 +1,13 @@
-:root {
-	--timer-background-color: #FFFFFF;
---timer-border: 1px solid #000000;
-	--timer-height: 70%;
-	--timer-width: 70%;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
-body, div, p {
-	margin: 0;
-	padding: 0;
-}
-@media screen and (max-width: 1024px) {
-	:root {
-		--timer-height: 100%;
-		--timer-width: 100%;
-}
-}
-.timer-container {
-	background-color: var(--timer-background-color);
-	border: var(--timer-border);
-	height: var(--timer-height);
-	width: var(--timer-width);
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }

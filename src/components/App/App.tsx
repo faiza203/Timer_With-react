@@ -3,7 +3,7 @@ import './App.css';
 import Timer from "./../Timer/Timer"
 function App() {
   return (
-    <div className="container">
+    <div className="app-container">
      <Timer />
     </div>
   );

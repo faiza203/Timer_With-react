@@ -4,7 +4,7 @@ import './TimerButton.css';
 
 const TimerButton = (props : any) => (
   <div className="button-container">
-    <button onClick={props.buttonAction} className="button-value">{props.buttonValue}</button>
+    <button onClick={props.buttonAction} id={props.buttonValue} className="btn btn-outline-danger">{props.buttonValue}</button>
   </div>
 );
 

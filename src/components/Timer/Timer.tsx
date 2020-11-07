@@ -10,6 +10,10 @@ class Timer extends Component {
     };
   }
 
+  startTimer() {
+    console.log('Starting timer.');
+  }
+
   render = () => {
     return <div className="timer-container" >I am Timer</div>;
   };

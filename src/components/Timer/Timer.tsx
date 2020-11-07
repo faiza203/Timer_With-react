@@ -7,7 +7,7 @@ class Timer extends Component {
     this.state = {
       minutes: 25,
       seconds: 0,
- 	      isOn: false
+ 	      isOn: true
     };
   }
 

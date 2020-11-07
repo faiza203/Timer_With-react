@@ -1,4 +1,4 @@
-:root {
+ :root {
 	--timer-background-color: #FFFFFF;
 --timer-border: 1px solid #000000;
 	--timer-height: 70%;
@@ -16,9 +16,11 @@ body, div, p {
 		--timer-width: 100%;
 }
 }
+
 .timer-container {
 	background-color: var(--timer-background-color);
-	border: var(--timer-border);
-	height: var(--timer-height);
-	width: var(--timer-width);
+}
+.timer-button-container{
+	display: flex;
+	flex-direction: row;
 }

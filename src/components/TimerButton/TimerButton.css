@@ -1,13 +1,9 @@
-:root {
-    --button-border: 3px solid #000000;
-    --button-text-size: 2em;
-  }
-  
   @media screen and (max-width: 1024px) {
     :root {
       --button-text-size: 4em;
     }
   }
+
   .button-container {
     flex: 1 1 auto;
     text-align: center;

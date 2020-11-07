@@ -1,17 +1,12 @@
-  @media screen and (max-width: 1024px) {
-    :root {
-      --button-text-size: 4em;
-    }
-  }
+.button-container {
+  flex: 1 1 auto;
+  text-align: center;
+  margin: 0px 20px;
+  border: var(--button-border);
+  font-size: var(--button-text-size);
+  height: 65px;
+}
 
-  .button-container {
-    flex: 1 1 auto;
-    text-align: center;
-    margin: 0px 20px;
-    border: var(--button-border);
-    font-size: var(--button-text-size);
-  }
-  
-  .button-container:hover {
-    cursor: pointer;
-  }
+.button-container:hover {
+  cursor: pointer;
+}
